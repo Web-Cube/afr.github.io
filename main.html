@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+    <title>Main</title>
+    <link rel="stylesheet" href="/app/css/app.css?v=1616536622354">
+    <script>
+        function canUseWebP(){var e=document.createElement("canvas");return!(!e.getContext||!e.getContext("2d"))&&0==e.toDataURL("image/webp").indexOf("data:image/webp")}var root=document.getElementsByTagName("html")[0];canUseWebP()?root.classList.add("ws"):root.classList.add("wn");
+    </script>
+</head>
+
+<body id="top">
+    <header class="header">
+        <div class="header__wrap wrap">
+            <div class="header__row flex flex_vertical flex_justify">
+                <div class="header__search-btn visible-mobile js-search-open">
+                    <svg class="icon icon-search" viewBox="0 0 20 19">
+                        <use xlink:href="/app/icons/sprite.svg#search"></use>
+                    </svg>
+                </div>
+                <a class="header__logo" href="/main.html">
+                    <picture>
+                        <source type="image/webp" srcset="/app/img/logo_black.webp">
+                            <img src="/app/img/logo_black.png" />
+                    </picture>
+                </a>
+                <ul class="header__nav hidden-tablet">
+                    <li class="header__nav-item"><a class="header__nav-link is-active" href="#">News</a>
+                    </li>
+                    <li class="header__nav-item"><a class="header__nav-link" href="#">Interview</a>
+                    </li>
+                    <li class="header__nav-item"><a class="header__nav-link" href="#">Guidance</a>
+                    </li>
+                    <li class="header__nav-item"><a class="header__nav-link" href="#">Discussion</a>
+                    </li>
+                    <li class="header__nav-item"><a class="header__nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+                <div class="header__right">
+                    <div class="header__styles hidden-tablet">
+                        <a class="header__style is-active" href="#">
+                            <svg class="icon icon-sun" viewBox="0 0 24 24">
+                                <use xlink:href="/app/icons/sprite.svg#sun"></use>
+                            </svg>
+                        </a>
+                        <a class="header__style" href="#">
+                            <svg class="icon icon-moon" viewBox="0 0 24 24">
+                                <use xlink:href="/app/icons/sprite.svg#moon"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="header__lang js-select hidden-tablet">
+                        <input class="header__input" type="hidden" />
+                        <div class="header__lang-head js-select-head">
+                            <div class="header__lang-arrow">
+                                <svg class="icon icon-downArrow" viewBox="0 0 18 10">
+                                    <use xlink:href="/app/icons/sprite.svg#downArrow"></use>
+                                </svg>
+                            </div>
+                            <div class="header__lang-label">En</div>
+                        </div>
+                        <div class="header__lang-body">
+                            <div class="header__lang-list"><a class="header__lang-item" href="#">Fr</a><a class="header__lang-item" href="#">Ua</a><a class="header__lang-item" href="#">Ru</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--+e.A.user.is-active(href="#")+icon('user')-->
+                    <a class="header__user hidden-tablet" href="#">
+                        <svg class="icon icon-user" viewBox="0 0 24 24">
+                            <use xlink:href="/app/icons/sprite.svg#user"></use>
+                        </svg>
+                    </a>
+                    <div class="header__search-form search-form visible-tablet">
+                        <div class="search-form__field field">
+                            <input class="field__input" type="text" name="search" placeholder="Search (enter your search term or hashtag)" />
+                        </div>
+                        <button class="search-form__btn">
+                            <svg class="icon icon-search" viewBox="0 0 20 19">
+                                <use xlink:href="/app/icons/sprite.svg#search"></use>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="header__burger">
+                        <svg class="icon icon-menu" viewBox="0 0 12 38">
+                            <use xlink:href="/app/icons/sprite.svg#menu"></use>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__search-mobile visible-mobile js-search search-mobile">
+            <div class="search-mobile__close js-search-close">
+                <svg class="icon icon-close" viewBox="0 0 24 24">
+                    <use xlink:href="/app/icons/sprite.svg#close"></use>
+                </svg>
+            </div>
+            <input class="search-mobile__input" type="text" name="search" placeholder="Search (enter your search term or hashtag)" />
+            <button class="search-mobile__btn">
+                <svg class="icon icon-search" viewBox="0 0 20 19">
+                    <use xlink:href="/app/icons/sprite.svg#search"></use>
+                </svg>
+            </button>
+        </div>
+    </header>
+    <div class="main">
+        <div class="main__wrap wrap">
+            <div class="main__content">
+                <div class="main__title h1">Afr.ua-new format
+                    <br>for breaking news</div>
+                <div class="main__desc p">New information portal for foreigners about life in Ukraine,
+                    <br>latest news,useful articles, blogs and much more...</div><a class="main__btn btn hidden-tablet" href="#"><span class="btn__text">Go to news</span><span class="btn__arrow"><svg class="icon icon-longArrow" viewBox="0 0 83 16"><use xlink:href="/app/icons/sprite.svg#longArrow"></use></svg></span></a>
+            </div>
+            <div class="main__swipe visible-tablet">
+                <div class="main__swipe-hand">
+                    <svg class="icon icon-swipeFinger" viewBox="0 0 45 45">
+                        <use xlink:href="/app/icons/sprite.svg#swipeFinger"></use>
+                    </svg>
+                </div>
+                <div class="main__swipe-arrow">
+                    <svg class="icon icon-swipeArrow" viewBox="0 0 16 61">
+                        <use xlink:href="/app/icons/sprite.svg#swipeArrow"></use>
+                    </svg>
+                </div>
+                <div class="main__swipe-text"><strong>Swipe to news</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="nav">
+        <div class="nav__wrap wrap">
+            <div class="nav__row flex flex_justify">
+                <div class="nav__left">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a class="nav__link is-active" href="#">Hot News</a>
+                        </li>
+                        <li class="nav__item"><a class="nav__link" href="#">Life</a>
+                        </li>
+                        <li class="nav__item"><a class="nav__link" href="#">Showbiz</a>
+                        </li>
+                        <li class="nav__item"><a class="nav__link" href="#">Music</a>
+                        </li>
+                        <li class="nav__item"><a class="nav__link" href="#">Sport</a>
+                        </li>
+                        <li class="nav__item"><a class="nav__link" href="#">Health</a>
+                        </li>
+                        <li class="nav__item"><a class="nav__link" href="#">Politics</a>
+                        </li>
+                        <li class="nav__item"><a class="nav__link" href="#">Economics</a>
+                        </li>
+                        <li class="nav__item"><a class="nav__link" href="#">Others</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav__right">
+                    <div class="nav__search-form search-form hidden-mobile">
+                        <div class="search-form__field field">
+                            <input class="field__input" type="text" name="search" placeholder="Search (enter your search term or hashtag)" />
+                        </div>
+                        <button class="search-form__btn">
+                            <svg class="icon icon-search" viewBox="0 0 20 19">
+                                <use xlink:href="/app/icons/sprite.svg#search"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="nav__bottom">
+                <div class="nav__select select js-select">
+                    <input class="select__input js-select-input" type="hidden" />
+                    <div class="select__head js-select-head">
+                        <div class="select__label js-select-label">Hot News</div>
+                        <div class="select__arrow">
+                            <svg class="icon icon-downArrow" viewBox="0 0 18 10">
+                                <use xlink:href="/app/icons/sprite.svg#downArrow"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="select__body">
+                        <div class="select__list">
+                            <div class="select__item js-select-item is-active" data-value="Hot News">Hot News</div>
+                            <div class="select__item js-select-item" data-value="Life">Life</div>
+                            <div class="select__item js-select-item" data-value="Showbiz">Showbiz</div>
+                            <div class="select__item js-select-item" data-value="Music">Music</div>
+                            <div class="select__item js-select-item" data-value="Sport">Sport</div>
+                            <div class="select__item js-select-item" data-value="Health">Health</div>
+                            <div class="select__item js-select-item" data-value="Politics">Politics</div>
+                            <div class="select__item js-select-item" data-value="Economics">Economics</div>
+                            <div class="select__item js-select-item" data-value="Others">Others</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav__select select js-select">
+                    <input class="select__input js-select-input" type="hidden" />
+                    <div class="select__head js-select-head">
+                        <div class="select__label js-select-label">Popular</div>
+                        <div class="select__arrow">
+                            <svg class="icon icon-downArrow" viewBox="0 0 18 10">
+                                <use xlink:href="/app/icons/sprite.svg#downArrow"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="select__body">
+                        <div class="select__list">
+                            <div class="select__item js-select-item is-active" data-value="Popular">Popular</div>
+                            <div class="select__item js-select-item" data-value="New">New</div>
+                            <div class="select__item js-select-item" data-value="Latest">Latest</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-news">
+        <div class="main-news__wrap wrap">
+            <div class="main-news__row flex">
+                <div class="main-news__column main-news__column_left">
+                    <h3 class="main-news__title h3">Popular</h3>
+                    <div class="main-news__list">
+                        <div class="main-news__post-box post-box"><a class="post-box__preview post-box__preview_big" href="#"><span class="post-box__img"><span class="post-box__img-wrap"><picture>
+		                            <source type="image/webp" srcset="/app/img/post_thumb1.webp">
+		                            <img src="/app/img/post_thumb1.jpg" class="object-fit" />
+		                        </picture></span></span><span class="post-box__info"><span class="post-box__top"><span class="post-box__title h2">Ukraine resumes flights <br>with 5 countries</span><span class="post-box__share share"><span class="share__item"><span class="share__icon"><svg class="icon icon-eye" viewBox="0 0 25 21"><use xlink:href="/app/icons/sprite.svg#eye"></use></svg></span><span class="share__count">1385</span></span><span class="share__item"><span class="share__icon"><svg class="icon icon-like" viewBox="0 0 25 21"><use xlink:href="/app/icons/sprite.svg#like"></use></svg></span><span class="share__count">1005</span></span><span class="share__item"><span class="share__icon"><svg class="icon icon-share" viewBox="0 0 21 20"><use xlink:href="/app/icons/sprite.svg#share"></use></svg></span><span class="share__count">380</span></span><span class="share__item"><span class="share__icon"><svg class="icon icon-comment" viewBox="0 0 25 21"><use xlink:href="/app/icons/sprite.svg#comment"></use></svg></span><span class="share__count">96</span></span><span class="share__item"><span class="share__icon"><svg class="icon icon-heart" viewBox="0 0 25 24"><use xlink:href="/app/icons/sprite.svg#heart"></use></svg></span></span></span></span><span class="post-box__bottom"><span class="post-box__date">28/01/2021 <br>12:41</span><span class="post-box__more more"><span class="more__text">Read more</span><span class="more__arrow"><svg class="icon icon-longArrow" viewBox="0 0 83 16"><use xlink:href="/app/icons/sprite.svg#longArrow"></use></svg></span></span></span></span></a>
+                        </div>
+                        <div class="main-news__post-box post-box"><a class="post-box__preview post-box__preview_big" href="#"><span class="post-box__img"><span class="post-box__img-wrap"><picture>
+		                            <source type="image/webp" srcset="/app/img/post_thumb2.webp">
+		                            <img src="/app/img/post_thumb2.jpg" class="object-fit" />
+		                        </picture></span></span><span class="post-box__info"><span class="post-box__top"><span class="post-box__title h2">A sharp jump in the exchange rate. Expert forecasts</span><span class="post-box__share share"><span class="share__item"><span class="share__icon"><svg class="icon icon-eye" viewBox="0 0 25 21"><use xlink:href="/app/icons/sprite.svg#eye"></use></svg></span><span class="share__count">1385</span></span><span class="share__item"><span class="share__icon"><svg class="icon icon-like" viewBox="0 0 25 21"><use xlink:href="/app/icons/sprite.svg#like"></use></svg></span><span class="share__count">1005</span></span><span class="share__item"><span class="share__icon"><svg class="icon icon-share" viewBox="0 0 21 20"><use xlink:href="/app/icons/sprite.svg#share"></use></svg></span><span class="share__count">380</span></span><span class="share__item"><span class="share__icon"><svg class="icon icon-comment" viewBox="0 0 25 21"><use xlink:href="/app/icons/sprite.svg#comment"></use></svg></span><span class="share__count">96</span></span><span class="share__item"><span class="share__icon"><svg class="icon icon-heart" viewBox="0 0 25 24"><use xlink:href="/app/icons/sprite.svg#heart"></use></svg></span></span></span></span><span class="post-box__bottom"><span class="post-box__date">28/01/2021 <br>12:41</span><span class="post-box__more more"><span class="more__text">Read more</span><span class="more__arrow"><svg class="icon icon-longArrow" viewBox="0 0 83 16"><use xlink:href="/app/icons/sprite.svg#longArrow"></use></svg></span></span></span></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-news__column main-news__column_right">
+                    <h3 class="main-news__title h3">New</h3>
+                    <div class="main-news__list">
+                        <div class="main-news__post-box post-box"><a class="post-box__preview post-box__preview_small" href="#"><span class="post-box__img"><span class="post-box__img-wrap"><picture>
+		                            <source type="image/webp" srcset="/app/img/post_thumb3.webp">
+		                            <img src="/app/img/post_thumb3.jpg" class="object-fit" />
+		                        </picture></span></span><span class="post-box__info"><span class="post-box__top"><span class="post-box__title h4">Situation with COVID-19 in Ukraine and in the World state on 28/01/20</span><span class="post-box__share share"><span class="share__item"><span class="share__icon"><svg class="icon icon-eye" viewBox="0 0 25 21"><use xlink:href="/app/icons/sprite.svg#eye"></use></svg></span><span class="share__count">1385</span></span><span class="share__item"><span class="share__icon"><svg class="icon icon-like" viewBox="0 0 25 21"><use xlink:href="/app/icons/sprite.svg#like"></use></svg></span><span class="share__count">1005</span></span><span class="share__item"><span class="share__icon"><svg class="icon icon-share" viewBox="0 0 21 20"><use xlink:href="/app/icons/sprite.svg#share"></use></svg></span><span class="share__count">380</span></span><span class="share__item"><span class="share__icon"><svg class="icon icon-comment" viewBox="0 0 25 21"><use xlink:href="/app/icons/sprite.svg#comment"></use></svg></span><span class="share__count">96</span></span><span class="share__item"><span class="share__icon"><svg class="icon icon-heart" viewBox="0 0 25 24"><use xlink:href="/app/icons/sprite.svg#heart"></use></svg></span></span></span></span><span class="post-box__bottom"><span class="post-box__date">28/01/2021 <br>12:41</span><span class="post-box__more more"><span class="more__text">Read more</span><span class="more__arrow"><svg class="icon icon-longArrow" viewBox="0 0 83 16"><use xlink:href="/app/icons/sprite.svg#longArrow"></use></svg></span></span></span></span></a>
+                        </div>
+                        <div class="main-news__post-box post-box"><a class="post-box__preview post-box__preview_small" href="#"><span class="post-box__img"><span class="post-box__img-wrap"><picture>
+		                            <source type="image/webp" srcset="/app/img/post_thumb4.webp">
+		                            <img src="/app/img/post_thumb4.jpg" class="object-fit" />
+		                        </picture></span></span><span class="post-box__info"><span class="post-box__top"><span class="post-box__title h4">Deterioration of weather conditions in Ukraine. Snow and ice on the road.</span><span class="post-box__share share"><span class="share__item"><span class="share__icon"><svg class="icon icon-eye" viewBox="0 0 25 21"><use xlink:href="/app/icons/sprite.svg#eye"></use></svg></span><span class="share__count">1385</span></span><span class="share__item"><span class="share__icon"><svg class="icon icon-like" viewBox="0 0 25 21"><use xlink:href="/app/icons/sprite.svg#like"></use></svg></span><span class="share__count">1005</span></span><span class="share__item"><span class="share__icon"><svg class="icon icon-share" viewBox="0 0 21 20"><use xlink:href="/app/icons/sprite.svg#share"></use></svg></span><span class="share__count">380</span></span><span class="share__item"><span class="share__icon"><svg class="icon icon-comment" viewBox="0 0 25 21"><use xlink:href="/app/icons/sprite.svg#comment"></use></svg></span><span class="share__count">96</span></span><span class="share__item"><span class="share__icon"><svg class="icon icon-heart" viewBox="0 0 25 24"><use xlink:href="/app/icons/sprite.svg#heart"></use></svg></span></span></span></span><span class="post-box__bottom"><span class="post-box__date">28/01/2021 <br>12:41</span><span class="post-box__more more"><span class="more__text">Read more</span><span class="more__arrow"><svg class="icon icon-longArrow" viewBox="0 0 83 16"><use xlink:href="/app/icons/sprite.svg#longArrow"></use></svg></span></span></span></span></a>
+                        </div>
+                        <div class="main-news__post-box post-box"><a class="post-box__preview post-box__preview_small" href="#"><span class="post-box__img"><span class="post-box__img-wrap"><picture>
+		                            <source type="image/webp" srcset="/app/img/post_thumb5.webp">
+		                            <img src="/app/img/post_thumb5.jpg" class="object-fit" />
+		                        </picture></span></span><span class="post-box__info"><span class="post-box__top"><span class="post-box__title h4">2020 Car of the Year Winner Announced</span><span class="post-box__share share"><span class="share__item"><span class="share__icon"><svg class="icon icon-eye" viewBox="0 0 25 21"><use xlink:href="/app/icons/sprite.svg#eye"></use></svg></span><span class="share__count">1385</span></span><span class="share__item"><span class="share__icon"><svg class="icon icon-like" viewBox="0 0 25 21"><use xlink:href="/app/icons/sprite.svg#like"></use></svg></span><span class="share__count">1005</span></span><span class="share__item"><span class="share__icon"><svg class="icon icon-share" viewBox="0 0 21 20"><use xlink:href="/app/icons/sprite.svg#share"></use></svg></span><span class="share__count">380</span></span><span class="share__item"><span class="share__icon"><svg class="icon icon-comment" viewBox="0 0 25 21"><use xlink:href="/app/icons/sprite.svg#comment"></use></svg></span><span class="share__count">96</span></span><span class="share__item"><span class="share__icon"><svg class="icon icon-heart" viewBox="0 0 25 24"><use xlink:href="/app/icons/sprite.svg#heart"></use></svg></span></span></span></span><span class="post-box__bottom"><span class="post-box__date">28/01/2021 <br>12:41</span><span class="post-box__more more"><span class="more__text">Read more</span><span class="more__arrow"><svg class="icon icon-longArrow" viewBox="0 0 83 16"><use xlink:href="/app/icons/sprite.svg#longArrow"></use></svg></span></span></span></span></a>
+                        </div>
+                        <div class="main-news__post-box post-box"><a class="post-box__preview post-box__preview_small" href="#"><span class="post-box__img"><span class="post-box__img-wrap"><picture>
+		                            <source type="image/webp" srcset="/app/img/post_thumb6.webp">
+		                            <img src="/app/img/post_thumb6.jpg" class="object-fit" />
+		                        </picture></span></span><span class="post-box__info"><span class="post-box__top"><span class="post-box__title h4">Top 10 Ukrainian universities for international students</span><span class="post-box__share share"><span class="share__item"><span class="share__icon"><svg class="icon icon-eye" viewBox="0 0 25 21"><use xlink:href="/app/icons/sprite.svg#eye"></use></svg></span><span class="share__count">1385</span></span><span class="share__item"><span class="share__icon"><svg class="icon icon-like" viewBox="0 0 25 21"><use xlink:href="/app/icons/sprite.svg#like"></use></svg></span><span class="share__count">1005</span></span><span class="share__item"><span class="share__icon"><svg class="icon icon-share" viewBox="0 0 21 20"><use xlink:href="/app/icons/sprite.svg#share"></use></svg></span><span class="share__count">380</span></span><span class="share__item"><span class="share__icon"><svg class="icon icon-comment" viewBox="0 0 25 21"><use xlink:href="/app/icons/sprite.svg#comment"></use></svg></span><span class="share__count">96</span></span><span class="share__item"><span class="share__icon"><svg class="icon icon-heart" viewBox="0 0 25 24"><use xlink:href="/app/icons/sprite.svg#heart"></use></svg></span></span></span></span><span class="post-box__bottom"><span class="post-box__date">28/01/2021 <br>12:41</span><span class="post-box__more more"><span class="more__text">Read more</span><span class="more__arrow"><svg class="icon icon-longArrow" viewBox="0 0 83 16"><use xlink:href="/app/icons/sprite.svg#longArrow"></use></svg></span></span></span></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-news__banner">
+                <picture>
+                    <source type="image/webp" srcset="/app/img/banner.webp">
+                        <img src="/app/img/banner.jpg" />
+                </picture>
+            </div>
+            <div class="main-news__bottom"><a class="main-news__btn btn btn_black" href="#"><span class="btn__text">Load more news</span><span class="btn__arrow"><svg class="icon icon-longArrow" viewBox="0 0 83 16"><use xlink:href="/app/icons/sprite.svg#longArrow"></use></svg></span></a>
+            </div>
+        </div>
+    </div>
+    <div class="subscribe">
+        <div class="subscribe__wrap wrap">
+            <a class="subscribe__up js-scroll-to" href="#top">
+                <svg class="icon icon-up" viewBox="0 0 16 92">
+                    <use xlink:href="/app/icons/sprite.svg#up"></use>
+                </svg>
+            </a>
+            <div class="subscribe__inner">
+                <h2 class="subscribe__title h2">Subscribe to our newsletter</h2>
+                <div class="subscribe__desc p">Subscribe to the newsletter and be the first to receive the latest news,
+                    <br>articles and useful information</div>
+                <form class="subscribe__form" action="#">
+                    <div class="subscribe__field field">
+                        <input class="field__input" type="email" name="email" placeholder="Enter your e-mail" />
+                    </div>
+                    <button class="subscribe__btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer__wrap wrap">
+            <div class="footer__row flex flex_justify flex_vertical">
+                <a class="footer__logo" href="/main.html">
+                    <picture>
+                        <source type="image/webp" srcset="/app/img/logo_black.webp">
+                            <img src="/app/img/logo_black.png" />
+                    </picture>
+                </a>
+                <ul class="footer__nav hidden-tablet">
+                    <li class="footer__nav-item"><a class="footer__nav-link is-active" href="#">News</a>
+                    </li>
+                    <li class="footer__nav-item"><a class="footer__nav-link" href="#">Interview</a>
+                    </li>
+                    <li class="footer__nav-item"><a class="footer__nav-link" href="#">Guidance</a>
+                    </li>
+                    <li class="footer__nav-item"><a class="footer__nav-link" href="#">Discussion</a>
+                    </li>
+                    <li class="footer__nav-item"><a class="footer__nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+                <div class="footer__contact">
+                    <div class="footer__contact-item"><a class="footer__contact-link" href="tel:+380881111111"><span class="footer__contact-icon"><svg class="icon icon-iphone" viewBox="0 0 30 30"><use xlink:href="/app/icons/sprite.svg#iphone"></use></svg></span><span class="footer__contact-text">+38 (088) - 11 - 11 - 111</span></a>
+                    </div>
+                    <div class="footer__contact-item"><a class="footer__contact-link" href="mailto:your@mail.com"><span class="footer__contact-icon"><svg class="icon icon-email" viewBox="0 0 30 30"><use xlink:href="/app/icons/sprite.svg#email"></use></svg></span><span class="footer__contact-text">your@mail.com</span></a>
+                    </div>
+                </div>
+                <div class="footer__social social">
+                    <a class="social__item" href="#">
+                        <svg class="icon icon-instagram" viewBox="0 0 30 30">
+                            <use xlink:href="/app/icons/sprite.svg#instagram"></use>
+                        </svg>
+                    </a>
+                    <a class="social__item" href="#">
+                        <svg class="icon icon-fb" viewBox="0 0 30 30">
+                            <use xlink:href="/app/icons/sprite.svg#fb"></use>
+                        </svg>
+                    </a>
+                    <a class="social__item" href="#">
+                        <svg class="icon icon-twitter" viewBox="0 0 30 30">
+                            <use xlink:href="/app/icons/sprite.svg#twitter"></use>
+                        </svg>
+                    </a>
+                    <a class="social__item" href="#">
+                        <svg class="icon icon-youtube" viewBox="0 0 30 30">
+                            <use xlink:href="/app/icons/sprite.svg#youtube"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="modals modals_recall mfp-hide" id="recall"></div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="/app/js/app.js?v=1616536622403"></script>
+</body>
+
+</html>
